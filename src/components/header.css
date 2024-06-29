@@ -1,0 +1,422 @@
+.sub-drop .dropdown-menu {
+  max-height: 200px; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+}
+
+
+
+.nav-link .underline-word::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  /* Adjust the position to match your design */
+  width: 0;
+  height: 2px;
+  /* Adjust the height as needed */
+  background-color: orange;
+  transition: width 0.3s ease;
+  /* Add transition effect for the width */
+}
+
+.nav-link .underline-word:hover::after {
+  width: 100%;
+}
+
+
+.dropdown-item .underline-word {
+  position: relative;
+  font-size: 1.3rem;
+}
+
+.dropdown-item .underline-word::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  /* Adjust the position to match your design */
+  width: 0;
+  height: 2px;
+  /* Adjust the height as needed */
+  background-color: orange;
+  transition: width 0.3s ease;
+  /* Add transition effect for the width */
+}
+
+.dropdown-item .underline-word:hover::after {
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 2560px) and (min-width: 1441px) {
+  .nav-link .underline-word {
+    font-weight: 600 !important;
+    font-size: 25px !important;
+  }
+
+  .nav-link {
+    font-size: 25px !important;
+  }
+
+  .nav-link .dropdown-item {
+    font-weight: 500 !important;
+    font-size: 25px !important;
+  }
+
+  .nav {
+    font-family: sans-serif;
+  }
+
+  .nav-dropdown-title {
+    font-size: 25px !important;
+    font-weight: 600 !important;
+  }
+
+  .navbar-brand img {
+    margin-top: 8px;
+    height: 80px !important;
+    width: auto;
+  }
+
+  .dropdown-item .underline-word::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    /* Adjust the position to match your design */
+    width: 0;
+    height: 2px;
+    /* Adjust the height as needed */
+    background-color: orange;
+    transition: width 0.3s ease;
+    /* Add transition effect for the width */
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 1440px) and (min-width: 1224px) {
+
+
+
+  /* .underline-word  {
+        font-weight: 500 !important;
+        font-size: 18px !important;
+      }
+      .dropdown-item{
+        font-weight: 500 !important;
+        font-size: 17px !important;
+      } */
+
+      .navbar-brand img {
+        /* margin-top: 20px; */
+        height: 70px !important;
+        width: auto;
+      }
+}
+
+@media screen and (max-width: 1223px) and (min-width: 1025px) {
+  .nav-link .underline-word {
+    font-weight: 600 !important;
+    font-size: 15.5px !important;
+  }
+
+  .nav-link {
+    font-size: 15.5px !important;
+  }
+
+  .nav-link .dropdown-item {
+    font-weight: 500 !important;
+    font-size: 15.5px !important;
+  }
+
+  .nav {
+    font-family: sans-serif;
+  }
+
+  .nav-dropdown-title {
+    font-size: 15.5px !important;
+    font-weight: 600 !important;
+  }
+
+  .navbar-brand img {
+    margin-top: 8px;
+    height: 80px !important;
+    width: auto;
+  }
+
+  .dropdown-item .underline-word::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    /* Adjust the position to match your design */
+    width: 0;
+    height: 2px;
+    /* Adjust the height as needed */
+    background-color: orange;
+    transition: width 0.3s ease;
+    /* Add transition effect for the width */
+  }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .nav-link .underline-word {
+    font-weight: 600 !important;
+    font-size: 17.5px !important;
+  }
+
+  .nav-link .dropdown-item {
+    font-weight: 500 !important;
+    font-size: 17px !important;
+  }
+
+  .nav {
+    font-family: sans-serif;
+  }
+
+  .nav-dropdown-title {
+    font-size: 17.5px !important;
+    font-weight: 600 !important;
+  }
+
+  .navbar-brand img {
+    margin-top: 20px;
+    height: 80px !important;
+    width: auto;
+  }
+
+  .dropdown-item .underline-word::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    /* Adjust the position to match your design */
+    width: 0;
+    height: 2px;
+    /* Adjust the height as needed */
+    background-color: orange;
+    transition: width 0.3s ease;
+    /* Add transition effect for the width */
+  }
+
+}
+
+
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+
+  .nav-link .underline-word {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    margin-left: 15px !important;
+  }
+
+  /* .nav-link .dropdown-item {
+    font-weight: 500 !important;
+    font-size: 16px !important;
+  } */
+
+  .dropdown-item .underline-word {
+    position: relative;
+    font-size: 1rem;
+    margin-left: 15px !important;
+
+  }
+
+
+  .nav {
+    font-family: sans-serif;
+  }
+
+  .nav-dropdown-title {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    margin-left: 15px !important;
+
+  }
+
+  .navbar-brand img {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 90px !important;
+    width: auto;
+  }
+
+  .dropdown-item .underline-word::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    /* Adjust the position to match your design */
+    width: 0;
+    height: 2px;
+    /* Adjust the height as needed */
+    background-color: orange;
+    transition: width 0.3s ease;
+    /* Add transition effect for the width */
+  }
+
+}
+
+
+
+@media screen and (max-width: 424px) and (min-width: 375px) {
+  .nav-link .underline-word {
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    margin-left: 10px;
+  }
+
+  /* .nav-link .dropdown-item {
+    font-weight: 500 !important;
+    font-size: 16px !important;
+  } */
+
+  .dropdown-item .underline-word {
+    position: relative;
+    font-size: 12.8px;
+  }
+
+  .nav {
+    font-family: sans-serif;
+  }
+
+  .nav-dropdown-title {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    margin-left: 10px;
+  }
+
+  .navbar-brand img {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 80px !important;
+    width: auto;
+  }
+
+  .dropdown-item .underline-word::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    /* Adjust the position to match your design */
+    width: 0;
+    height: 2px;
+    /* Adjust the height as needed */
+    background-color: orange;
+    transition: width 0.3s ease;
+    /* Add transition effect for the width */
+  }
+
+}
+
+@media screen and (max-width: 374px) and (min-width: 321px) {
+  .nav-link .underline-word {
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    margin-left: 10px;
+  }
+
+  /* .nav-link .dropdown-item {
+    font-weight: 500 !important;
+    font-size: 16px !important;
+  } */
+
+  .dropdown-item .underline-word {
+    position: relative;
+    font-size: 12.8px;
+  }
+
+  .nav {
+    font-family: sans-serif;
+  }
+
+  .nav-dropdown-title {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    margin-left: 10px;
+  }
+
+  .navbar-brand img {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 80px !important;
+    width: auto;
+  }
+
+  .dropdown-item .underline-word::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    /* Adjust the position to match your design */
+    width: 0;
+    height: 2px;
+    /* Adjust the height as needed */
+    background-color: orange;
+    transition: width 0.3s ease;
+    /* Add transition effect for the width */
+  }
+
+}
+
+@media screen and (max-width: 320px) and (min-width: 220px) {
+  .nav-link .underline-word {
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    margin-left: 10px;
+  }
+
+  /* .nav-link .dropdown-item {
+    font-weight: 500 !important;
+    font-size: 16px !important;
+  } */
+
+  .dropdown-item .underline-word {
+    position: relative;
+    font-size: 12.8px;
+  }
+
+  .nav {
+    font-family: sans-serif;
+  }
+
+  .nav-dropdown-title {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    margin-left: 10px;
+  }
+
+  .navbar-brand img {
+    margin-top: 20px;
+    height: 80px !important;
+    width: auto;
+  }
+
+  .dropdown-item .underline-word::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    /* Adjust the position to match your design */
+    width: 0;
+    height: 2px;
+    /* Adjust the height as needed */
+    background-color: orange;
+    transition: width 0.3s ease;
+    /* Add transition effect for the width */
+  }
+
+}

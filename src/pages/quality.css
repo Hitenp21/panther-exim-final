@@ -1,0 +1,441 @@
+
+@media screen and (max-width: 2560px) and (min-width: 1441px) {
+    .quality-container {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        font-family: sans-serif;
+        position: relative;
+
+    }
+
+    .background-image {
+        
+        width: 100%;
+        height: 500px;
+        background-image: url("/src/image/panther exim.png");
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        opacity: 0.3;
+    }
+
+
+    .title {
+        margin-bottom: 20px !important;
+        font-family: 'Amiri', serif;
+        justify-content: center;
+    }
+
+    .title h2 {
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+
+    .content p {
+        margin-bottom: 10px;
+        line-height: 1.5;
+        font-size: 1.2rem;
+        font-family: sans-serif;
+
+        color: #4a4a4a;
+    }
+
+    .content ul {
+        list-style-type: none;
+        color: #4a4a4a;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .content ul li {
+        margin-bottom: 8px;
+        list-style-type: disc;
+        font-size: 1.3rem;
+        font-weight: 250;
+        margin-left: 2%;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+    .quality-container {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        font-family: sans-serif;
+        position: relative;
+
+    }
+
+    .background-image {
+        
+        width: 100%;
+        height: 500px;
+        background-image: url("/src/image/panther exim.png");
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        opacity: 0.3;
+    }
+
+
+    .title {
+        margin-bottom: 20px !important;
+        font-family: 'Amiri', serif;
+        justify-content: center;
+    }
+
+    .title h2 {
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+
+    .content p {
+        margin-bottom: 10px;
+        line-height: 1.5;
+        font-size: 1.2rem;
+        font-family: sans-serif;
+
+        color: #4a4a4a;
+    }
+
+    .content ul {
+        list-style-type: none;
+        color: #4a4a4a;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .content ul li {
+        margin-bottom: 8px;
+        list-style-type: disc;
+        font-size: 1.3rem;
+        font-weight: 250;
+        margin-left: 2%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .quality-container {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        font-family: sans-serif;
+        position: relative;
+
+    }
+
+    .background-image {
+        position: absolute;
+        margin-top: 80px;
+        width: 100%;
+        height: 400px;
+        background-image: url("/src/image/panther exim.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 0.3;
+    }
+
+
+    .title {
+        margin-bottom: 20px !important;
+        font-family: 'Amiri', serif;
+        justify-content: center;
+    }
+
+    .title h2 {
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+
+    .content p {
+        margin-bottom: 18px !important;
+        line-height: 1.5;
+        font-size: 1.15rem;
+        font-family: sans-serif;
+
+        color: #4a4a4a;
+    }
+
+    .content ul {
+        list-style-type: none;
+        color: #4a4a4a;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .content ul li {
+        margin-bottom: 8px;
+        list-style-type: disc;
+        font-size: 1.2rem;
+        font-weight: 250;
+        margin-left: 2%;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) and (min-width: 570px) {
+
+    .quality-container {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        font-family: sans-serif;
+        position: relative;
+
+    }
+
+    .background-image {
+        position: absolute;
+        margin-top: 100px;
+        width: 100%;
+        height: 300px;
+        background-image: url("/src/image/panther exim.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 0.3;
+    }
+
+
+    .title {
+        margin-bottom: 20px !important;
+        font-family: 'Amiri', serif;
+        justify-content: center;
+    }
+
+    .title h2 {
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .content p {
+        margin-bottom: 16px !important;
+        line-height: 1.5;
+        font-size: 1rem;
+        font-family: sans-serif;
+
+        color: #4a4a4a;
+    }
+
+    .content ul {
+        list-style-type: none;
+        color: #4a4a4a;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .content ul li {
+        margin-bottom: 8px;
+        list-style-type: disc;
+        font-size: 1.05rem;
+        font-weight: 250;
+        margin-left: 2%;
+    }
+}
+
+
+
+@media screen and (max-width: 569px) and (min-width: 375px) {
+    .quality-container {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        font-family: sans-serif;
+        position: relative;
+
+    }
+
+    .background-image {
+        position: absolute;
+        margin-top: 90px; 
+        width: 100%;
+        height: 250px;
+        background-image: url("/src/image/panther exim.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 0.3;
+    }
+
+
+    .title {
+        margin-bottom: 20px !important;
+        font-family: 'Amiri', serif;
+        justify-content: center;
+    }
+
+    .title h2 {
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+
+    .content p {
+        margin-bottom: 16px !important;
+        line-height: 1.5;
+        font-size: 0.85rem;
+        font-family: sans-serif;
+
+        color: #4a4a4a;
+    }
+
+    .content ul {
+        list-style-type: none;
+        color: #4a4a4a;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .content ul li {
+        margin-bottom: 8px;
+        list-style-type: disc;
+        font-size: 0.88rem;
+        font-weight: 250;
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 374px) and (min-width: 321px) {
+    .quality-container {
+        max-width: 90%;
+
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        font-family: sans-serif;
+        position: relative;
+
+    }
+
+    .background-image {
+        
+        position: absolute;
+        margin-top: 150px;
+        width: 100%;
+        height: 130px;
+        background-image: url("/src/image/panther exim.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 0.3;
+    }
+
+
+    .title {
+        margin-bottom: 20px !important;
+        font-family: 'Amiri', serif;
+        justify-content: center;
+    }
+
+    .title h2 {
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+
+    .content p {
+        margin-bottom: 16px !important;
+        line-height: 1.5;
+        font-size: 0.85rem;
+        font-family: sans-serif;
+
+        color: #4a4a4a;
+    }
+
+    .content ul {
+        list-style-type: none;
+        color: #4a4a4a;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .content ul li {
+        margin-bottom: 8px;
+        list-style-type: disc;
+        font-size: 0.88rem;
+        font-weight: 250;
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 320px) and (min-width: 220px) {
+    .quality-container {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        font-family: sans-serif;
+        position: relative;
+
+    }
+
+    .background-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("/src/image/panther exim.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 0.3;
+    }
+
+
+    .title {
+        margin-bottom: 20px !important;
+        font-family: 'Amiri', serif;
+        justify-content: center;
+    }
+
+    .title h2 {
+        font-weight: 700;
+        font-size: 0.95rem;
+    }
+
+    .content p {
+        margin-bottom: 14px !important;
+        line-height: 1.5;
+        font-size: 0.7rem;
+        font-family: sans-serif;
+
+        color: #4a4a4a;
+    }
+
+    .content ul {
+        list-style-type: none;
+        color: #4a4a4a;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .content ul li {
+        margin-bottom: 8px;
+        list-style-type: disc;
+        font-size: 0.75rem;
+        font-weight: 250;
+        margin-left: 2%;
+    }
+}

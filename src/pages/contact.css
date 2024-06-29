@@ -1,0 +1,407 @@
+.contact-img{
+    height: 500px;
+    width: auto;
+}
+
+.title {
+    /* display: flex; */
+    margin-top: 10px !important;
+    margin-bottom: -30px;
+
+
+
+    /* flex-wrap; */
+}
+.contact-us {
+    padding-bottom: 25px !important;
+    padding-top: 0px !important;
+}
+
+
+
+
+  
+@media screen and (max-width: 2560px) and (min-width: 1441px) {
+
+    .company-info {
+        /* margin:0 30px; */
+        margin-right: 40px;
+        padding: 2rem;
+        border-radius: 0.5rem;
+        margin-bottom: 0px !important;
+    }
+
+    .company-info .logo {
+        width: 250px;
+        margin-left: 50px;
+        height: auto;
+        /* margin-bottom: 0.5rem !important; */
+    }
+
+    p {
+        margin-bottom: 2rem !important;
+    }
+
+    .company-info p {
+        color: #000000;
+        margin-bottom: 0.5rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .grid label {
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+    }
+
+    .input-field {
+        border: 2px solid rgb(161, 161, 161) !important;
+        border-radius: 7px;
+    }
+
+    h2 {
+        font-weight: 900 !important;
+    }
+
+    .company-info img {
+        height: 40px;
+        /* Set the maximum height of the images */
+        width: auto;
+        /* Automatically adjust the width to maintain aspect ratio */
+    }
+    
+    /* .btn {
+        font-size: larger;
+    } */
+
+    button {
+        font-size: 1.3rem !important;
+        letter-spacing: 2px !important;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1440px) and (min-width: 1170px) {
+
+    .company-info {
+        /* margin:0 30px; */
+        margin-right: 40px;
+        padding: 2rem;
+        border-radius: 0.5rem;
+        margin-bottom: 0px !important;
+    }
+
+    .company-info .logo {
+        width: 250px;
+        margin-left: 50px;
+        height: auto;
+        /* margin-bottom: 0.5rem !important; */
+    }
+
+    p {
+        margin-bottom: 2rem !important;
+    }
+
+    .company-info p {
+        color: #000000;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .grid label {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+
+    .input-field {
+        border: 2px solid rgb(161, 161, 161) !important;
+        border-radius: 7px;
+    }
+
+    h2 {
+        font-weight: 900 !important;
+    }
+
+    .company-info img {
+        height: 28px;
+        /* Set the maximum height of the images */
+        width: auto;
+        /* Automatically adjust the width to maintain aspect ratio */
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 1169px) and (min-width: 769px) {
+    .company-info {
+        /* margin:0 30px; */
+        margin-right: 40px;
+        padding: 3rem;
+        border-radius: 0.5rem;
+    }
+
+    .company-info .logo {
+        width: 230px;
+        margin-left: 30px;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin-bottom: 2rem !important;
+    }
+
+    h2 {
+        font-weight: 900 !important;
+    }
+
+    .company-info p {
+        color: #000000;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .grid label {
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+
+    .input-field {
+        border: 2px solid rgb(161, 161, 161) !important;
+        border-radius: 7px;
+    }
+
+    .heading {
+        font-weight: 700;
+    }
+
+    .company-info img {
+        height: 28px;
+        /* Set the maximum height of the images */
+        width: auto;
+        /* Automatically adjust the width to maintain aspect ratio */
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+
+    .company-info {
+        margin: 0 30px;
+        padding: 1.2rem;
+        border-radius: 0.5rem;
+    }
+
+    h2 {
+        font-weight: 900 !important;
+    }
+
+    .company-info .logo {
+        width: 210px;
+        margin-left: 20%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin-bottom: 2rem !important;
+    }
+
+    .company-info p {
+        color: #000000;
+        margin-bottom: 0.5rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .grid label {
+        font-size: 0.95rem;
+        letter-spacing: 1px;
+    }
+
+    .input-field {
+        border: 2px solid rgb(161, 161, 161) !important;
+        border-radius: 7px;
+    }
+
+    .heading {
+        font-weight: 700;
+    }
+
+    .company-info img {
+        height: 28px;
+        /* Set the maximum height of the images */
+        width: auto;
+        /* Automatically adjust the width to maintain aspect ratio */
+    }
+
+}
+
+
+
+@media screen and (max-width: 424px) and (min-width: 375px) {
+    .company-info {
+        margin: 0 30px;
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    h2 {
+        font-weight: 900 !important;
+    }
+
+    .company-info .logo {
+        width: 190px;
+        margin-left: 10px;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+
+    p {
+        margin-bottom: 2rem !important;
+    }
+
+    .company-info p {
+        color: #000000;
+        margin-bottom: 0.5rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .grid label {
+        font-size: 0.95rem;
+        letter-spacing: 1px;
+    }
+
+    .input-field {
+        border: 2px solid rgb(161, 161, 161) !important;
+        border-radius: 7px;
+    }
+
+    .company-info img {
+        height: 20px;
+        /* Set the maximum height of the images */
+        width: auto;
+        /* Automatically adjust the width to maintain aspect ratio */
+    }
+
+}
+
+@media screen and (max-width: 374px) and (min-width: 321px) {
+    .company-info .logo {
+        width: 160px;
+        height: auto;
+        margin-left: 30px;
+        margin-bottom: 0.5rem;
+    }
+
+    h2 {
+        font-weight: 900 !important;
+    }
+
+    .company-info {
+        margin: 0 30px;
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
+
+
+    p {
+        margin-bottom: 2rem !important;
+    }
+
+    .company-info p {
+        color: #000000;
+        margin-bottom: 0.5rem;
+        font-size: 0.7rem;
+        font-weight: bold;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .grid label {
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+    }
+
+    .input-field {
+        border: 2px solid rgb(161, 161, 161) !important;
+        border-radius: 7px;
+    }
+
+    .company-info img {
+        height: 20px;
+        /* Set the maximum height of the images */
+        width: auto;
+        /* Automatically adjust the width to maintain aspect ratio */
+    }
+}
+
+@media screen and (max-width: 320px) and (min-width: 220px) {
+    .company-info .logo {
+        width: 150px;
+        height: auto;
+        margin-left: 30px;
+        margin-bottom: 0.5rem;
+    }
+
+    h2 {
+        font-weight: 900 !important;
+    }
+    
+    .company-info {
+        /* margin:0 30px; */
+        /* padding: 1rem;  */
+        border-radius: 0.5rem;
+    }
+
+    p {
+        margin-bottom: 2rem !important;
+    }
+
+    .company-info p {
+        color: #000000;
+        margin-bottom: 0.5rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .grid label {
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+    }
+
+    .input-field {
+        border: 2px solid rgb(161, 161, 161) !important;
+        border-radius: 7px;
+        font-size: 0.85 !important;
+    }
+
+    .company-info img {
+        height: 16px;
+        /* Set the maximum height of the images */
+        width: auto;
+        /* Automatically adjust the width to maintain aspect ratio */
+    }
+}

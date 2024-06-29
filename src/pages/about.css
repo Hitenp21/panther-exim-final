@@ -1,0 +1,594 @@
+.about {
+
+    background-image: url("/src/image/about.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+    .about {
+        height: 800px;
+    }
+
+    .about h1 {
+        letter-spacing: 2px;
+        font-size: 60px;
+        color: #dbcaca;
+        font-family: sans-serif;
+        font-weight: 650;
+
+    }
+
+    .about-contant {
+        font-family: sans-serif;
+    }
+
+    .heading {
+        /* margin-left: 10%; */
+        margin-bottom: 20px;
+    }
+
+    .heading span {
+        font-weight: 650;
+        font-size: 2.2rem;
+        border-bottom: 3px solid #ffa500;
+        letter-spacing: 1px;
+    }
+
+    .about-contant p {
+        font-size: 1.3rem;
+        margin-bottom: 1.2rem !important;
+        letter-spacing: 0.5px;
+    }
+
+    .row-custom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5rem;
+    }
+
+    .col-custom {
+        flex: 0 0 calc(33.3333% - 1rem);
+        /* Adjust width as needed */
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .col-auto img {
+        max-width: 65px;
+    }
+
+    .col-content h3 {
+        margin-bottom: 0.5rem;
+        font-weight: 700 !important;
+        font-size: 1.5rem !important;
+    }
+
+    .col-content p {
+        margin-bottom: 0;
+
+    }
+
+    .network-i.order-lg-1.col-lg-6 p {
+        margin-bottom: 20px;
+    }
+
+    .vl {
+        display: flex;
+        font-family: sans-serif;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid rgb(8, 8, 8);
+        height: 100px;
+    }
+
+    .vl h1,
+    .vl span {
+        display: inline-block;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .vl h1 {
+        font-size: 45px;
+    }
+
+    .vl span {
+        /* font-family: 'Times New Roman', Times, serif; */
+        font-size: 18px;
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+
+    .about {
+        height: 500px;
+    }
+
+    .about h1 {
+        letter-spacing: 2px;
+        font-size: 2.5rem;
+        color: #dbcaca;
+        font-family: sans-serif;
+        font-weight: 650;
+
+    }
+
+    .about-contant {
+        font-family: sans-serif;
+    }
+
+    .heading {
+        margin-bottom: 20px;
+    }
+
+    .heading span {
+        font-weight: 650;
+        font-size: 2rem;
+        border-bottom: 3px solid #ffa500;
+        letter-spacing: 1px;
+    }
+
+    .about-contant p {
+        font-size: 1.1rem;
+        margin-bottom: 1.2rem !important;
+        letter-spacing: 0.5px;
+    }
+
+    .row-custom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5rem;
+    }
+
+    .col-custom {
+        flex: 0 0 calc(33.3333% - 1.25rem);
+        /* Adjust width as needed */
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .col-auto img {
+        max-width: 50px;
+    }
+
+    .col-content h3 {
+        margin-bottom: 0.5rem;
+    }
+
+    .col-content p {
+        margin-bottom: 0;
+    }
+
+    .vl {
+        display: flex;
+        font-family: sans-serif;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid rgb(8, 8, 8);
+        height: 100px;
+    }
+
+    .vl h1,
+    .vl span {
+        display: inline-block;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .vl h1 {
+        font-size: 35px;
+    }
+
+    .vl span {
+        font-size: 15px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .about {
+        height: 400px;
+    }
+
+    .about h1 {
+        letter-spacing: 2px;
+        font-size: 2.1rem;
+        color: #dbcaca;
+        font-family: sans-serif;
+        font-weight: 650;
+
+    }
+
+    .network-i.order-lg-1.col-lg-6 {
+
+        margin-bottom: 20px;
+    }
+
+    .about-contant {
+        font-family: sans-serif;
+    }
+
+    .heading {
+        margin-bottom: 20px;
+    }
+
+    .heading span {
+        font-weight: 600;
+        font-size: 1.8rem;
+        border-bottom: 3px solid #ffa500;
+        letter-spacing: 1px;
+    }
+
+    .about-contant p {
+        font-size: 1.1rem;
+        margin-bottom: 1.1rem !important;
+        letter-spacing: 0.5px;
+    }
+
+    .row-custom {
+        display: flex;
+        flex-direction: column;
+        /* Stack items vertically */
+        margin-top: 5rem;
+    }
+
+    .col-custom {
+        margin-bottom: 1rem;
+        /* Add spacing between columns */
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .col-auto img {
+        max-width: 50px;
+    }
+
+    .col-content p {
+        margin-bottom: 0;
+    }
+
+
+    .vl {
+        display: flex;
+        font-family: sans-serif;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid rgb(8, 8, 8);
+        height: 100px;
+    }
+
+    .vl h1,
+    .vl span {
+        display: inline-block;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .vl h1 {
+        font-size: 30px;
+    }
+
+    .vl span {
+        font-size: 12px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 424px) and (min-width: 375px) {
+    .about {
+        height: 300px;
+      }
+    
+      .about h1 {
+        letter-spacing: 2px;
+        font-size: 1.7rem;
+        color: #dbcaca;
+        font-family: sans-serif;
+        font-weight: 650;
+    
+      }
+    
+      .network-i.order-lg-1.col-lg-6 {
+    
+        margin-bottom: 20px;
+      }
+    
+      .about-contant {
+        font-family: sans-serif;
+      }
+    
+      .heading {
+        margin-bottom: 20px;
+      }
+    
+      .heading span {
+        font-weight: 550;
+        font-size: 1.4rem;
+        border-bottom: 2px solid #ffa500;
+        letter-spacing: 1px;
+      }
+    
+      .about-contant p {
+        font-size: 0.95rem;
+        margin-bottom: 1.1rem !important;
+        letter-spacing: 0.5px;      }
+    
+      .row-custom {
+        display: flex;
+        flex-direction: column;
+        /* Stack items vertically */
+        margin-top: 5rem;
+      }
+    
+      .col-custom {
+        margin-bottom: 1rem;
+        /* Add spacing between columns */
+      }
+    
+      h3 {
+        font-size: 18px !important;
+      }
+    
+      p {
+        font-size: 12px !important;
+      }
+    
+      .align-items-center {
+        align-items: center;
+      }
+    
+      .col-auto img {
+        max-width: 45px;
+      }
+    
+      .col-content p {
+        margin-bottom: 0;
+      }
+    
+    
+      .vl {
+        display: flex;
+        font-family: sans-serif;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid rgb(8, 8, 8);
+        height: 80px;
+      }
+    
+      .vl h1,
+      .vl span {
+        display: inline-block;
+        text-align: center;
+        letter-spacing: 1px;
+      }
+    
+      .vl h1 {
+        font-size: 20px;
+      }
+    
+      .vl span {
+        font-size: 7px;
+      }
+    
+}
+
+@media screen and (max-width: 374px) and (min-width: 321px) {
+    .about {
+        height: 250px;
+      }
+    
+      .about h1 {
+        letter-spacing: 2px;
+        font-size: 1.5rem;
+        color: #dbcaca;
+        font-family: sans-serif;
+        font-weight: 650;
+    
+      }
+    
+      .network-i.order-lg-1.col-lg-6 {
+    
+        margin-bottom: 20px;
+      }
+    
+      .about-contant {
+        font-family: sans-serif;
+      }
+    
+      .heading {
+        margin-bottom: 20px;
+      }
+    
+      .heading span {
+        font-weight: 550;
+        font-size: 1.2rem;
+        border-bottom: 2px solid #ffa500;
+        letter-spacing: 1px;
+      }
+    
+      .about-contant p {
+        font-size: 0.8rem;
+        margin-bottom: 1rem !important;
+        letter-spacing: 0.5px;
+    }
+    
+      .row-custom {
+        display: flex;
+        flex-direction: column;
+        /* Stack items vertically */
+        margin-top: 5rem;
+      }
+    
+      .col-custom {
+        margin-bottom: 1rem;
+        /* Add spacing between columns */
+      }
+    
+      h3 {
+        font-size: 15px !important;
+      }
+    
+      p {
+        font-size: 12px !important;
+      }
+    
+      .align-items-center {
+        align-items: center;
+      }
+    
+      .col-auto img {
+        max-width: 40px;
+      }
+    
+      .col-content p {
+        margin-bottom: 0;
+      }
+    
+    
+      .vl {
+        display: flex;
+        font-family: sans-serif;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid rgb(8, 8, 8);
+        height: 80px;
+      }
+    
+      .vl h1,
+      .vl span {
+        display: inline-block;
+        text-align: center;
+        letter-spacing: 1px;
+      }
+    
+      .vl h1 {
+        font-size: 20px;
+      }
+    
+      .vl span {
+        font-size: 7px;
+      }
+    
+}
+
+@media screen and (max-width: 320px) and (min-width: 220px) {
+    .about {
+        height: 200px;
+      }
+    
+      .about h1 {
+        letter-spacing: 2px;
+        font-size: 1.2rem;
+        color: #dbcaca;
+        font-family: sans-serif;
+        font-weight: 650;
+    
+      }
+    
+      .network-i.order-lg-1.col-lg-6 {
+    
+        margin-bottom: 20px;
+      }
+    
+      .about-contant {
+        font-family: sans-serif;
+      }
+    
+      .heading {
+        margin-bottom: 20px;
+      }
+    
+      .heading span {
+        font-weight: 550;
+        font-size: 1.1rem;
+        border-bottom: 1.9px solid #ffa500;
+        letter-spacing: 1px;
+      }
+    
+      .about-contant p {
+        font-size: 0.8rem;
+        margin-bottom: 1rem !important;
+        letter-spacing: 0.5px;
+      }
+    
+      .row-custom {
+        display: flex;
+        flex-direction: column;
+        /* Stack items vertically */
+        margin-top: 5rem;
+      }
+    
+      .col-custom {
+        margin-bottom: 1rem;
+        /* Add spacing between columns */
+      }
+    
+      h3 {
+        font-size: 15px !important;
+      }
+    
+      p {
+        font-size: 10px !important;
+      }
+    
+      .align-items-center {
+        align-items: center;
+      }
+    
+      .col-auto img {
+        max-width: 40px;
+      }
+    
+      .col-content p {
+        margin-bottom: 0;
+      }
+    
+    
+      .vl {
+        display: flex;
+        font-family: sans-serif;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid rgb(8, 8, 8);
+        height: 60px;
+      }
+    
+      .vl h1,
+      .vl span {
+        display: inline-block;
+        text-align: center;
+        letter-spacing: 1px;
+      }
+    
+      .vl h1 {
+        font-size: 15px;
+      }
+    
+      .vl span {
+        /* font-family: 'Times New Roman', Times, serif; */
+        font-size: 5px;
+      }
+    
+}

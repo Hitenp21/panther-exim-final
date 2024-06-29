@@ -1,0 +1,145 @@
+.navbar-container {
+  background-color: black;
+  /* Change background color to black */
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: nowrap;
+  /* Prevent items from wrapping */
+}
+
+.navbar-section {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.hp {
+  /* text-align: center;  */
+  margin-bottom: 0px !important;
+}
+
+.time-section,
+.call-section {
+  background-color: black;
+  /* Change background color of time and call sections */
+}
+
+.language-section {
+  flex-grow: 1;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-section:hover svg {
+  color: orange;
+  /* Change icon color to orange on hover */
+}
+
+@media screen and (max-width: 2560px) and (min-width: 1025px) {
+  .hp {
+    font-size: 14px !important;
+    /* Change the font size to 14 pixels */
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .hp {
+    font-size: 14px !important;
+    /* Change the font size to 14 pixels */
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 636px) {
+  .hp {
+    font-size: 13px !important;
+    /* Change the font size to 14 pixels */
+  }
+
+  .navbar-section svg {
+    width: 18px;
+    /* Set the width of the SVG icon */
+    height: 18px;
+    /* Set the height of the SVG icon */
+  }
+}
+
+
+@media screen and (max-width: 635px) and (min-width: 425px) {
+  .hp {
+    font-size: 10px !important;
+    /* Change the font size to 14 pixels */
+  }
+
+  .navbar-section svg {
+    width: 20px;
+    /* Set the width of the SVG icon */
+    height: 20px;
+    /* Set the height of the SVG icon */
+  }
+
+  .language-section {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 424px) and (min-width: 390px) {
+  .hp {
+    font-size: 10px !important;
+    /* Change the font size to 14 pixels */
+  }
+
+  .navbar-section svg {
+    width: 20px;
+    /* Set the width of the SVG icon */
+    height: 20px;
+    /* Set the height of the SVG icon */
+  }
+
+  .language-section {
+    font-size: 10px;
+  }
+}
+
+
+@media screen and (max-width: 389px) and (min-width: 370px) {
+  .hp {
+    font-size: 8px !important;
+    /* Change the font size to 14 pixels */
+  }
+
+  .navbar-section svg {
+    width: 20px;
+    /* Set the width of the SVG icon */
+    height: 20px;
+    /* Set the height of the SVG icon */
+  }
+
+  .language-section {
+    font-size: 10px;
+  }
+}
+
+
+@media screen and (max-width: 369px) and (min-width: 320px) {
+  .hp {
+    font-size: 8px !important;
+    /* Change the font size to 14 pixels */
+  }
+
+  .navbar-section svg {
+    width: 16px;
+    /* Set the width of the SVG icon */
+    height: 16px;
+    /* Set the height of the SVG icon */
+  }
+
+  .language-section {
+    font-size: 10px;
+  }
+}
