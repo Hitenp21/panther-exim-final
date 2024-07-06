@@ -74,6 +74,7 @@ import { Link } from 'react-router-dom';
 
 import './Home.css';
 import CountsContainer from '../components/count';
+import WhatsAppButton from '../components/whatsapp';
 
 export default function Home() {
   return (<>
@@ -221,6 +222,8 @@ export default function Home() {
           </div>
         </Link>
       </div>
+
+      <WhatsAppButton />
 
     </div>
 

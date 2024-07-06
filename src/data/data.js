@@ -1,6 +1,12 @@
 const  Data = [
     {
         "heading": "CABLE GLAND",
+        "title": "Brass Stopping Plug",
+        "image": "/images/category-images/cable-gland/BRASS STOPPING PLUC.jpg",
+        "link": "/category/cables/brass-stopping-plug"
+    },
+    {
+        "heading": "CABLE GLAND",
         "title": "Extension Piece",
         "image": "https://lntsufin.com/storage/mediafiles/catalog/live/16691-10037/original/16691-10037_image_0.jpg",
         "link": "/category/cables/extension-piece"
@@ -31,12 +37,6 @@ const  Data = [
     },
     {
         "heading": "CABLE GLAND",
-        "title": "Brass Stopping Plug",
-        "image": "https://probots.co.in/pub/media/catalog/product/cache/d8ddd0f9b0cd008b57085cd218b48832/p/g/pg_13.5_metal.jpg",
-        "link": "/category/cables/brass-stopping-plug"
-    },
-    {
-        "heading": "CABLE GLAND",
         "title": "Line Taps / Split Bolt",
         "image": "https://probots.co.in/pub/media/catalog/product/cache/d8ddd0f9b0cd008b57085cd218b48832/p/g/pg_13.5_metal.jpg",
         "link": "/category/cables/line-taps"
@@ -55,37 +55,37 @@ const  Data = [
     {
         "heading": "SANITARY PARTS",
         "title": "Hex Nipple",
-        "image": "https://lntsufin.com/storage/mediafiles/catalog/live/16691-10037/original/16691-10037_image_0.jpg",
+        "image": "/images/category-images/Sanitary Parts/hex nipple 1.jpg",
         "link": "/category/sanitary/hex-nipple"
     },
     {
         "heading": "SANITARY PARTS",
         "title": "UNION",
-        "image": "https://c8.alamy.com/comp/2AAT8PY/sanitary-faucets-isolated-on-white-background-material-nickel-plated-brass-2AAT8PY.jpg",
+        "image": "/images/category-images/Sanitary Parts/UNION 1.jpg",
         "link": "/category/sanitary/union"
     },
     {
         "heading": "SANITARY PARTS",
         "title": "Reducing Bush",
-        "image": "https://probots.co.in/pub/media/catalog/product/cache/d8ddd0f9b0cd008b57085cd218b48832/p/g/pg_13.5_metal.jpg",
+        "image": "/images/category-images/Sanitary Parts/reducing bush.jpg",
         "link": "/category/sanitary/reducing-bush"
     },
-    {
-        "heading": "SANITARY PARTS",
-        "title": "Socket / Coupling Hex & Round",
-        "image": "https://probots.co.in/pub/media/catalog/product/cache/d8ddd0f9b0cd008b57085cd218b48832/p/g/pg_13.5_metal.jpg",
-        "link": "/category/sanitary/socket-round"
-    },
+    // {
+    //     "heading": "SANITARY PARTS",
+    //     "title": "Socket / Coupling Hex & Round",
+    //     "image": "https://probots.co.in/pub/media/catalog/product/cache/d8ddd0f9b0cd008b57085cd218b48832/p/g/pg_13.5_metal.jpg",
+    //     "link": "/category/sanitary/socket-round"
+    // },
     {
         "heading": "SANITARY PARTS",
         "title": "ROUND FLANGE TANK CONNECTOR SINGLE SIDE MOVE",
-        "image": "https://probots.co.in/pub/media/catalog/product/cache/d8ddd0f9b0cd008b57085cd218b48832/p/g/pg_13.5_metal.jpg",
+        "image": "/images/category-images/Sanitary Parts/ROUND FLANGE TANK CONNECTOR SINGLE SIDE MOVE.jpg",
         "link": "/category/sanitary/round-flange-tank-connector-single-side-move"
     },
     {
         "heading": "SANITARY PARTS",
         "title": "TANK CONNECTOR DOUBLE-SIDE MOVE",
-        "image": "https://probots.co.in/pub/media/catalog/product/cache/d8ddd0f9b0cd008b57085cd218b48832/p/g/pg_13.5_metal.jpg",
+        "image": "/images/category-images/Sanitary Parts/TANK CONNECTOR DOUBLE SIDE MOVE.jpg",
         "link": "/category/sanitary/tank-connector-double-side-move"
     },
     {

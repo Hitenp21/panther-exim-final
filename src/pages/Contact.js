@@ -8,6 +8,7 @@ import FormLoader from "../components/formLoader";
 import { ToastContainer, toast } from "react-toastify";
 
 import 'react-toastify/dist/ReactToastify.css';
+import WhatsAppButton from "../components/whatsapp";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -89,12 +90,6 @@ export default function Contact() {
 
   return (
     <>
-
-      {/* <div className="contact-img img-fluid" style={{
-            // backgroundColor: "rgba(0, 0, 0, 0.5)",
-            backgroundImage: `url(${backgroundImage})`, backgroundRepeat: "no-repeat",
-            backgroundSize: "cover"
-        }} > */}
         <ToastContainer
         position="top-right"
         autoClose={5000}
@@ -308,6 +303,7 @@ export default function Contact() {
         </div>
       </div>
 
+      <WhatsAppButton/>
 
     </>
   );

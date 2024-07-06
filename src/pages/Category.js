@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "../index.css";
 import ProductHeader from "../components/productHeader";
+import WhatsAppButton from "../components/whatsapp";
 
 
 export default function Category() {
@@ -38,6 +39,8 @@ export default function Category() {
 
             </div>
         </div>
+        <WhatsAppButton />
+
         </>
     )
 }

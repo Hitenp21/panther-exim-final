@@ -1,5 +1,6 @@
 import React from 'react';
 import './quality.css';
+import WhatsAppButton from '../components/whatsapp';
 
 export default function Quality() {
     return (
@@ -37,6 +38,8 @@ export default function Quality() {
                     Quality is key focus for us. Our sound infrastructure and committed plant personnel aid us in maintaining our quality standards. We ensure the use of the finest quality materials for our products.
                 </p>
             </div>
+
+            <WhatsAppButton />
         </div>
     );
 }

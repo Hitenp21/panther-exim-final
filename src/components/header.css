@@ -57,6 +57,7 @@
 
   .nav-link {
     font-size: 25px !important;
+    margin-right: 10px;
   }
 
   .nav-link .dropdown-item {

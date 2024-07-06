@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import "../index.css";
 import ProductHeader from "../components/productHeader";
 import Data from "../data/data";
+import WhatsAppButton from "../components/whatsapp";
 
 
 export default function Products() {
@@ -25,7 +26,7 @@ export default function Products() {
                     </div>
                 ))}
             </div>
-
+                <WhatsAppButton/>
         </>
     )
 }

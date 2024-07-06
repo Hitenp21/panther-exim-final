@@ -1,6 +1,7 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import CountsContainer from '../components/count';
 import "./about.css";
+import WhatsAppButton from '../components/whatsapp';
 
 export default function About() {
     return (
@@ -78,6 +79,8 @@ export default function About() {
                 </Container>
                 
             </div>
+            <WhatsAppButton />
+
 
         </>
     )

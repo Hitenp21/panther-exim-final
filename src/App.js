@@ -46,6 +46,7 @@ import Loader from './components/loader';
 import SendEmail from './components/emailSend';
 import SubCategory from './pages/subCategory';
 import Products from './pages/Products';
+import GoogleTranslateWithErrorBoundary from './transaltion/error-handling';
 
 function App() {
   const [t, i18n] = useTranslation("global")
@@ -121,6 +122,8 @@ function App() {
     <>
       <>
         <div className='navbar-container'>
+            {/* <GoogleTranslateWithErrorBoundary /> */}
+            {/* <div id="google_translate_element">Hello</div> */}
           <span className='navbar-section time-section'>
 
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 64 64" id="email" style={{ marginRight: '7px', transition: 'color 0.3s' }}>
@@ -137,7 +140,7 @@ function App() {
             <p className='hp'>Call Us: +91 7984353863</p>
           </span>
           <div className='navbar-section language-section'>
-            <LanguageSelector onLanguageChange={handleLanguageChange} />
+            {/* <LanguageSelector onLanguageChange={handleLanguageChange} /> */}
           </div>
         </div>
 
@@ -158,42 +161,9 @@ function App() {
 
                 <Route path="/category/cables" element={<Products />} />
                 <Route path="/category/cables/*" element={<SubCategory />} />
-                {/* <Route path="/category/cables/extention-piece" element={<ExtensionPiece />} />
-                <Route path="/category/cables/pg-brass-cable-gland" element={<PgBrass />} />
-                <Route path="/category/cables/earthing-tag" element={<Earthing />} />
-                <Route path="/category/cables/lock-nut" element={<LockNut />} />
-                <Route path="/category/cables/brass-reducers" element={<BrassReducers />} />
-                <Route path="/category/cables/brass-stopping-plug" element={<StoppingPlug />} />
-                <Route path="/category/cables/line-taps" element={<LineTap />} />
-                <Route path="/category/cables/split-bolt-connector" element={<SplitBolt />} /> */}
 
                 <Route path="/category/sanitary" element={<Products />} />
                 <Route path="/category/sanitary/*" element={<SubCategory />} />
-
-                {/* <Route path="/category/sanitary/hex-nipple" element={<HexNipple />} /> */}
-                {/* <Route path="/category/sanitary/union" element={<Union />} />
-                <Route path="/category/sanitary/reducing-bush" element={<ReducingBush />} />
-                <Route path="/category/sanitary/socket-round" element={<SocketRound />} />
-                <Route path="/category/sanitary/round-flange-tank-connector-single-side-move" element={<ConnectorSingleSide />} />
-                <Route path="/category/sanitary/tank-connector-double-side-move" element={<DoubleSideMove />} />
-                <Route path="/category/sanitary/water-meter-connctor" element={<WaterMeter />} />
-                <Route path="/category/sanitary/tee-coupling" element={<TeeCoupling />} />
-                <Route path="/category/sanitary/elbow-coupling" element={<ElbowCoupling />} />
-                <Route path="/category/sanitary/kim-nipple" element={<KimNipple />} />
-                <Route path="/category/sanitary/male-plug" element={<MalePlug />} />
-                <Route path="/category/sanitary/female-plug" element={<FemalePlug />} />
-                <Route path="/category/sanitary/hose-nipple" element={<HoseNipple />} />
-                <Route path="/category/sanitary/long-nipple" element={<LongNipple />} />
-                <Route path="/category/sanitary/cp-socket" element={<CPSocket />} />
-                <Route path="/category/sanitary/brass-nut" element={<BrassNut />} />
-                <Route path="/category/sanitary/cp-cross-tee" element={<CPCrossTee />} />
-                <Route path="/category/sanitary/cp-male-female-elbow" element={<CPMaleFemaleElbow />} />
-                <Route path="/category/sanitary/cp-hex-nipple" element={<CPHexNipple />} />
-                <Route path="/category/sanitary/cp-hex-cap-female" element={<CPHexCapFemale />} />
-                <Route path="/category/sanitary/cp-plug-male-female" element={<CPPlugMaleFemale />} />
-                <Route path="/category/sanitary/cp-waste-coupling" element={<CPWasteCoupling />} /> */}
-                {/* <Route path="/category/sanitary/pg-brass-cable-glands-nickle-plated" element = {<HexNipple />} /> */}
-
 
 
                 <Route path="/fq" element={<FQ />} />
