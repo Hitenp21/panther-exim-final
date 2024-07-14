@@ -69,13 +69,41 @@ export default function Navbarlist() {
                   onClick={() => Navigatore("/category/cables")}
                   >
                   <NavDropdown.Item>
-                    <Link to="/category/cable-type1" className="dropdown-item" >
+                    <Link to="/category/cables/brass-stopping-plug" className="dropdown-item" >
                       <span className='underline-word'>
-                        Cable Type 1
+                      Brass Stopping Plug
                       </span>
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
+                    <Link to="/category/cables/extension-piece" className="dropdown-item">
+                      <span className='underline-word'>
+                      Extension Piece
+                      </span>
+                    </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to="/category/cables/earthing-tag" className="dropdown-item">
+                      <span className='underline-word'>
+                      Earthing Tag
+                      </span>
+                    </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to="/category/cables/lock-nut" className="dropdown-item">
+                      <span className='underline-word'>
+                      Lock Nut
+                      </span>
+                    </Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to="/category/cables/brass-reducers" className="dropdown-item">
+                      <span className='underline-word'>
+                      Brass Reducers
+                      </span>
+                    </Link>
+                  </NavDropdown.Item>
+                  {/* <NavDropdown.Item>
                     <Link to="/category/cable-type2" className="dropdown-item">
                       <span className='underline-word'>
                         Cable Type 2
@@ -102,35 +130,7 @@ export default function Navbarlist() {
                         Cable Type 2
                       </span>
                     </Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link to="/category/cable-type2" className="dropdown-item">
-                      <span className='underline-word'>
-                        Cable Type 2
-                      </span>
-                    </Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link to="/category/cable-type2" className="dropdown-item">
-                      <span className='underline-word'>
-                        Cable Type 2
-                      </span>
-                    </Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link to="/category/cable-type2" className="dropdown-item">
-                      <span className='underline-word'>
-                        Cable Type 2
-                      </span>
-                    </Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link to="/category/cable-type2" className="dropdown-item">
-                      <span className='underline-word'>
-                        Cable Type 2
-                      </span>
-                    </Link>
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
 
                 </NavDropdown>
               </NavDropdown.Item>
@@ -141,48 +141,41 @@ export default function Navbarlist() {
                   onClick={() => Navigatore("/category/sanitary")}
                   >
                   <NavDropdown.Item>
-                    <Link to="/category/cable-type1" className="dropdown-item" >
+                    <Link to="/category/sanitary/hex-nipple" className="dropdown-item" >
                       <span className='underline-word'>
-                      Sanitary Parts Type 1
+                      Hex Nipple
                       </span>
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Link to="/category/cable-type2" className="dropdown-item">
+                    <Link to="/category/sanitary/union" className="dropdown-item">
                       <span className='underline-word'>
-                      Sanitary Parts Type 2
+                      UNION
                       </span>
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Link to="/category/cable-type2" className="dropdown-item">
+                    <Link to="/category/sanitary/reducing-bush" className="dropdown-item">
                       <span className='underline-word'>
-                        Cable Type 2
+                      Reducing Bush
                       </span>
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Link to="/category/cable-type2" className="dropdown-item">
+                    <Link to="/category/sanitary/ROUND-FLANGE" className="dropdown-item">
                       <span className='underline-word'>
-                        Cable Type 2
+                      ROUND FLANGE TANK CONNECTOR SINGLE SIDE MOVE
                       </span>
                     </Link>
                   </NavDropdown.Item>
                   <NavDropdown.Item>
-                    <Link to="/category/cable-type2" className="dropdown-item">
+                    <Link to="/category/sanitary/TANK-CONNECTOR" className="dropdown-item">
                       <span className='underline-word'>
-                        Cable Type 2
+                      TANK CONNECTOR DOUBLE-SIDE MOVE
                       </span>
                     </Link>
                   </NavDropdown.Item>
-                  <NavDropdown.Item>
-                    <Link to="/category/cable-type2" className="dropdown-item">
-                      <span className='underline-word'>
-                        Cable Type 2
-                      </span>
-                    </Link>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item>
+                  {/* <NavDropdown.Item>
                     <Link to="/category/cable-type2" className="dropdown-item">
                       <span className='underline-word'>
                         Cable Type 2
@@ -203,10 +196,17 @@ export default function Navbarlist() {
                       </span>
                     </Link>
                   </NavDropdown.Item>
+                  <NavDropdown.Item>
+                    <Link to="/category/cable-type2" className="dropdown-item">
+                      <span className='underline-word'>
+                        Cable Type 2
+                      </span>
+                    </Link>
+                  </NavDropdown.Item> */}
 
                 </NavDropdown>
               </NavDropdown.Item>
-              <NavDropdown.Item >
+              {/* <NavDropdown.Item >
                 <NavDropdown title="Brass Insert" drop="end" className='sub-drop' onMouseEnter={handleMouseEnter4}
                   onMouseLeave={handleMouseLeave4}
                   show={showSubDropdown4} 
@@ -349,7 +349,7 @@ export default function Navbarlist() {
                   </NavDropdown.Item>
 
                 </NavDropdown>
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
               
               <NavDropdown.Divider />
               <Link to="/fq" className="dropdown-item">
@@ -364,11 +364,11 @@ export default function Navbarlist() {
                 QUALITY
               </span>
             </Link>
-            <Link to="/ourCustomer" className="nav-link">
+            {/* <Link to="/ourCustomer" className="nav-link">
               <span className='underline-word'>
                 OUR CUSTOMER
               </span>
-            </Link>
+            </Link> */}
             <Link to="/contact" className="nav-link">
               <span className='underline-word'>
                 CONTACT US
